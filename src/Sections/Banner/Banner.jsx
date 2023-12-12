@@ -6,9 +6,10 @@ import wavedBorder from "/svg/layered-waves-haikei.svg"
 const Banner = () => {
     return (
         < >
-            <div className="bg-[#002939] -z-10" style={{
+            <div className="" style={{
                 background: `url(${wavedBorder}) no-repeat center bottom`,
                 backgroundSize: '100% auto',
+                backgroundColor: "#002939",
             }}>
                 <div className="flex items-center justify-between max-w-6xl mx-auto py-20" >
                     <div className="w-full text-center md:text-left md:w-7/12 text-[#F0F3BD] ">

@@ -8,8 +8,8 @@ const AboutMe = () => {
         <div id="about" className="bg-[#004966]">
             <Container>
                 <SectionTitle heading="About Me" subHeading=""></SectionTitle>
-                <div className="md:flex justify-between items-center">
 
+                <div className="md:flex justify-between items-center">
 
                     <div className="md:w-1/2 flex flex-col md:mx-auto items-center justify-center space-y-5">
 
@@ -42,7 +42,7 @@ const AboutMe = () => {
 
                             <div>
                                 <p>Name: <span className=" font-medium text-[#E2E3CE] mb-3">Ikmatul Islam Rabib</span></p>
-                                <p>From: <span className=" font-medium text-[#E2E3CE] mb-3">Bangladesh</span></p>
+                                <p>From: <span className=" font-medium text-[#E2E3CE] mb-3">Dinajpur, Bangladesh</span></p>
                             </div>
 
                             <div>
@@ -57,6 +57,7 @@ const AboutMe = () => {
                     </div>
 
                 </div>
+                
             </Container>
         </div>
     );
