@@ -12,7 +12,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className=" bg-transparent text-[#F0F3BD] fixed top-0 left-0 right-0">
+            <div className=" bg-[#028090] z-30 text-[#F0F3BD] fixed top-0 left-0 right-0 ">
                 <div className="max-w-6xl mx-auto">
                     <div className="navbar p-0">
 

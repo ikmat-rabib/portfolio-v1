@@ -6,10 +6,11 @@ import Footer from "../../Sections/Footer/Footer";
 
 const Homepage = () => {
     return (
-        <div className="overflow-hidden bg-[#002939]">
+        <div className="overflow-hidden bg-[#002939] ">
             <Navbar></Navbar>
             <Banner></Banner>
             <AboutMe></AboutMe>
+
             <Footer></Footer>
         </div>
     );
