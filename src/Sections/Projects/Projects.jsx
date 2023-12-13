@@ -10,7 +10,7 @@ const Projects = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
                     <div className="card card-compact rounded-xl w-full bg-[#004966] shadow-xl hover:scale-105 hover:shadow-[#59bfe7] transition ">
-                        <figure><img src="/src/assets/projects/@rena.PNG" alt="" /></figure>
+                        <figure><img src="https://i.ibb.co/k9LjJqC/rena.png" alt="" /></figure>
                         <div className="card-body text-[#F0F3BD] space-y-2">
                             <h2 className="card-title text-justify">@rena - Event Management</h2>
                             <div className="h-[3px] w-full bg-[#02C39A] max-w-full"></div>
@@ -22,7 +22,7 @@ const Projects = () => {
                     </div>
 
                     <div className="card card-compact rounded-xl w-full bg-[#004966] shadow-xl hover:scale-105 hover:shadow-[#59bfe7] transition">
-                        <figure><img src="/src/assets/projects/fitz.PNG" alt="" /></figure>
+                        <figure><img src="https://i.ibb.co/hFLJ6hv/fitz.png" alt="" /></figure>
                         <div className="card-body text-[#F0F3BD] space-y-2">
                             <h2 className="card-title text-justify">FitZ - Gym Website</h2>
                             <div className="h-[3px] w-full bg-[#02C39A] max-w-full"></div>
@@ -34,7 +34,7 @@ const Projects = () => {
                     </div>
 
                     <div className="card card-compact rounded-xl w-full bg-[#004966] shadow-xl hover:scale-105 hover:shadow-[#59bfe7] transition">
-                        <figure><img src="/src/assets/projects/waark.PNG" alt="" /></figure>
+                        <figure><img src="https://i.ibb.co/B2f3CB4/waark.png" alt="" /></figure>
                         <div className="card-body text-[#F0F3BD] space-y-2">
                             <h2 className="card-title text-justify">Waark - Online Marketplace</h2>
                             <div className="h-[3px] w-full bg-[#02C39A] max-w-full"></div>
