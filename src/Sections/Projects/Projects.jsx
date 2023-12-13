@@ -13,7 +13,7 @@ const Projects = () => {
                         <figure><img src="/src/assets/projects/@rena.PNG" alt="" /></figure>
                         <div className="card-body text-[#F0F3BD] space-y-2">
                             <h2 className="card-title text-justify">@rena - Event Management</h2>
-                            <div className="h-[3px] w-full bg-[#02C39A] max-w-full "></div>
+                            <div className="h-[3px] w-full bg-[#02C39A] max-w-full"></div>
                             <div className="card-actions justify-between ">
                                 <a href="https://assignment-9-firebase-68d3a.web.app/" target="blank" className="btn bg-[#00a897ab] border-0 text-xs hover:bg-[#02C39A]  text-[#F0F3BD] rounded-full uppercase hover:scale-105 ">Live Link</a>
                                 <a href="https://github.com/ikmat-rabib/arena-event-management" target="blank" className="btn bg-[#00a897ab] border-0 text-xs hover:bg-[#02C39A]  text-[#F0F3BD] rounded-full uppercase hover:scale-105 ">github repo</a>
