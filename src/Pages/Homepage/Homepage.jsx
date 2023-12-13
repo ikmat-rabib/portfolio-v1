@@ -4,6 +4,7 @@ import Banner from "../../Sections/Banner/Banner";
 import Contact from "../../Sections/Contact/Contact";
 import Footer from "../../Sections/Footer/Footer";
 import MySkills from "../../Sections/MySkills/MySkills";
+import Projects from "../../Sections/Projects/Projects";
 
 
 const Homepage = () => {
@@ -13,6 +14,7 @@ const Homepage = () => {
             <Banner></Banner>
             <AboutMe></AboutMe>
             <MySkills></MySkills>
+            <Projects></Projects>
             <Contact></Contact>
             <Footer></Footer>
         </div>
