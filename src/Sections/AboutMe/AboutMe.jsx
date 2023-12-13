@@ -13,18 +13,18 @@ const AboutMe = () => {
 
                     <div className="md:w-1/2 flex flex-col md:mx-auto items-center justify-center space-y-5">
 
-                        <div style={{ borderRadius: '43% 57% 14% 86% / 78% 21% 79% 22%' }} className="w-72 h-52 border-0 bg-[#02C39A] md:mt-10  relative ">
+                        <div style={{ borderRadius: '43% 57% 14% 86% / 78% 21% 79% 22%' }} className="w-72 h-52 border-0 bg-[#00A896] md:mt-10  relative ">
                             <img style={{ borderRadius: '43% 57% 14% 86% / 78% 21% 79% 22%' }} className="  shadow-2xl  absolute bottom-5 right-5" src="https://i.ibb.co/xhvZSHk/trainers.jpg" alt="" />
                         </div>
 
                         <div className="flex gap-3 justify-center">
 
-                            <a href="https://github.com/ikmat-rabib" target="blank" >
-                                <FaGithub className="text-3xl text-[#02C39A] border-0 hover:text-[#02C39A] bg-transparent hover:bg-transparent  "></FaGithub>
+                            <a href="https://github.com/ikmat-rabib" target="blank">
+                                <FaGithub className="text-4xl text-[#02C39A] border-0 hover:text-[#00F5C0] hover:text-[42px]   "></FaGithub>
                             </a>
 
                             <a href="https://www.linkedin.com/in/ikmat-rabib-19b608144" target="blank" >
-                                <FaLinkedin className="text-3xl text-[#02C39A] border-0 hover:text-[#02C39A] bg-transparent hover:bg-transparent "></FaLinkedin >
+                                <FaLinkedin className="text-4xl text-[#02C39A] border-0 hover:text-[#00F5C0] hover:text-[42px]   "></FaLinkedin >
                             </a>
 
 
@@ -33,9 +33,9 @@ const AboutMe = () => {
                     </div>
 
 
-                    <div className="md:w-1/2  md:pr-5 space-y-5">
+                    <div className="md:w-1/2  space-y-5">
 
-                        <p className="font- text-[#e2e3cede]">Hello, <br /> I'm Ikmatul Islam Rabib, a dedicated front-end web developer on a mission to create user-friendly websites. With a passion for Front-End Development, I bring ideas to life by combining design and technology. My journey in web development is fueled by continuous learning. Let's build something amazing together!
+                        <p className="text-justify text-[#e2e3cede]">Hello, <br /> I'm Ikmatul Islam Rabib, a dedicated front-end web developer on a mission to create user-friendly websites. With a passion for Front-End Development, I bring ideas to life by combining design and technology. My journey in web development is fueled by continuous learning. Let's build something amazing together!
                         </p>
 
                         <div className="flex justify-between">

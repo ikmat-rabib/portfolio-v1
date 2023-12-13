@@ -29,9 +29,9 @@ const Contact = () => {
         <div id="contact" className="">
             <Container>
                 <SectionTitle heading="Contact" subHeading=""></SectionTitle>
-                <div className="flex ">
+                <div className="md:flex ">
 
-                    <div className="md:w-1/2 p-[34px] flex items-center justify-center">
+                    <div className=" w-full md:w-1/2 p-[34px] flex items-center justify-center">
                         <div className="space-y-3">
                             <div className="flex items-center gap-2">
                                 <FaMobileScreen className="text-3xl text-[#02C39A] " />
@@ -72,7 +72,7 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <div className="card shrink-0 w-1/2 shadow-2xl bg-transparent">
+                    <div className="card w-full md:w-1/2 shadow-2xl bg-transparent">
                         <form className="card-body " ref={form} onSubmit={sendEmail}>
 
                             <div className="form-control" >
@@ -93,7 +93,7 @@ const Contact = () => {
                                 <label className="label">
                                     <span className="label-text text-[#F0F3BD]">Message</span>
                                 </label>
-                                <textarea className="bg-[#002939] px-4 py-2" name="message" id="" cols="30" rows="5"></textarea>
+                                <textarea className="bg-[#002939] rounded-lg px-4 py-2" name="message" id="" cols="30" rows="5" required></textarea>
                             </div>
 
                             <div className="form-control mt-6">
