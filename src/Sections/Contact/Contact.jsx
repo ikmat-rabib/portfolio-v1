@@ -1,10 +1,30 @@
 import { FaGithub, FaLinkedin, FaLocationDot, FaMobileScreen } from "react-icons/fa6";
 import { MdMailOutline } from "react-icons/md";
+import emailjs from '@emailjs/browser';
 import Container from "../../Components/Container/Container";
 import SectionTitle from "../../hooks/SectionTitle/SectionTitle";
+import { useRef } from "react";
 
 
 const Contact = () => {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm(
+            'service_rg98gtg',
+            'template_utsekaf',
+            form.current,
+            'YzMvGVd5c_wXrIGLi')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
+
     return (
         <div id="contact" className="">
             <Container>
@@ -53,20 +73,20 @@ const Contact = () => {
                     </div>
 
                     <div className="card shrink-0 w-1/2 shadow-2xl bg-transparent">
-                        <form className="card-body ">
+                        <form className="card-body " ref={form} onSubmit={sendEmail}>
 
-                            <div className="form-control">
+                            <div className="form-control" >
                                 <label className="label">
                                     <span className="label-text text-[#F0F3BD]">Name</span>
                                 </label>
-                                <input type="text" placeholder="name" className="input input-bordered bg-[#002939]" required />
+                                <input type="text" name="user_name" placeholder="name" className="input input-bordered bg-[#002939]" required />
                             </div>
 
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text text-[#F0F3BD]">Email</span>
                                 </label>
-                                <input type="email" placeholder="email" className="input input-bordered  bg-[#002939]" required />
+                                <input type="email" name="user_email" placeholder="email" className="input input-bordered  bg-[#002939]" required />
                             </div>
 
                             <div className="form-control">
@@ -77,9 +97,11 @@ const Contact = () => {
                             </div>
 
                             <div className="form-control mt-6">
-                                <button className="btn bg-[#00a897a6] hover:bg-[#02C39A]  border-0 text-[#F0F3BD]">Login</button>
+                                <input type="submit" value="Send" className="btn bg-[#00a897a6] hover:bg-[#02C39A]  border-0 text-[#F0F3BD]" />
+
                             </div>
                         </form>
+
                     </div>
                 </div>
             </Container>
