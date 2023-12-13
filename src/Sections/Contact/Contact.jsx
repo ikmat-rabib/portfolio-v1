@@ -28,7 +28,7 @@ const Contact = () => {
     return (
         <div id="contact" className="">
             <Container>
-                <SectionTitle heading="Contact Me" subHeading=""></SectionTitle>
+                <SectionTitle heading="Contact" subHeading=""></SectionTitle>
                 <div className="flex ">
 
                     <div className="md:w-1/2 p-[34px] flex items-center justify-center">
@@ -93,7 +93,7 @@ const Contact = () => {
                                 <label className="label">
                                     <span className="label-text text-[#F0F3BD]">Message</span>
                                 </label>
-                                <textarea className="bg-[#002939]" name="message" id="" cols="30" rows="5"></textarea>
+                                <textarea className="bg-[#002939] px-4 py-2" name="message" id="" cols="30" rows="5"></textarea>
                             </div>
 
                             <div className="form-control mt-6">

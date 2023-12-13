@@ -20,7 +20,7 @@ const Banner = () => {
                         <div className="my-8 "></div>
                         <div className="flex gap-5">
                             <a href="/public/resume/Assignment-2-(SCIC).pdf" download="Assignment-2-(SCIC).pdf" className="btn btn-outline border-[#00A896] text-xs hover:bg-[#02C39A]  text-[#F0F3BD] rounded-full uppercase hover:scale-105 hover:border-0 ">download resume</a>
-                            <a href="#projects"  className="btn bg-[#00a897a6] border-[#00A896] text-xs hover:bg-[#02C39A]  text-[#F0F3BD] rounded-full uppercase hover:scale-105 hover:border-0 ">see portfolio</a>
+                            <a href="#projects"  className="btn bg-[#00a897a6] border-[#00A896] text-xs hover:bg-[#02C39A]  text-[#F0F3BD] rounded-full uppercase hover:scale-105 hover:border-0 ">see projects</a>
                         </div>
 
                     </div>

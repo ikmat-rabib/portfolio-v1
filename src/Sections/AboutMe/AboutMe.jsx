@@ -7,7 +7,7 @@ const AboutMe = () => {
     return (
         <div id="about" className="bg-[#004966]">
             <Container>
-                <SectionTitle heading="About Me" subHeading=""></SectionTitle>
+                <SectionTitle heading="About" subHeading=""></SectionTitle>
 
                 <div className="md:flex justify-between items-center">
 
