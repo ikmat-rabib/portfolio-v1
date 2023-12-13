@@ -6,7 +6,7 @@ import wavedBorder from "/svg/layered-waves-haikei.svg"
 const Banner = () => {
     return (
         < >
-            <div className="px-3 py-5 md:py-0 md:px-6 lg:px-0" style={{
+            <div className="px-3 py-5 md:py-0 md:px-6 lg:px-0 min-h-screen" style={{
                 background: `url(${wavedBorder}) no-repeat center bottom`,
                 backgroundSize: '100% auto',
                 backgroundColor: "#002939",
