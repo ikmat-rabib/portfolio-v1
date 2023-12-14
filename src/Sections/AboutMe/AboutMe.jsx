@@ -40,12 +40,12 @@ const AboutMe = () => {
 
                         <div className="flex justify-between">
 
-                            <div>
-                                <p>Name: <span className=" font-medium text-[#E2E3CE] mb-3">Ikmatul Islam Rabib</span></p>
+                            <div className="text-sm lg:text-bas text-[#e2e3cede]">
+                                <p className="">Name: <span className=" font-medium text-[#E2E3CE] mb-3">Ikmatul Islam Rabib</span></p>
                                 <p>From: <span className=" font-medium text-[#E2E3CE] mb-3">Dinajpur, Bangladesh</span></p>
                             </div>
 
-                            <div>
+                            <div className="text-sm lg:text-base text-[#e2e3cede]">
                                 <p>Call: <span className=" font-medium text-[#E2E3CE] mb-3">+88 0011223344</span></p>
                                 <p>Email: <span className=" font-medium text-[#E2E3CE] mb-3">ikmat.rbb@gmail.com</span></p>
                             </div>
