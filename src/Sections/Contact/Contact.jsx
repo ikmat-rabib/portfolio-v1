@@ -60,12 +60,11 @@ const Contact = () => {
                                 <div className="flex gap-3 justify-center">
 
                                     <a href="https://github.com/ikmat-rabib" target="blank" >
-                                        <FaGithub className="text-3xl text-[#02C39A] border-0 hover:text-[#02C39A] bg-transparent hover:bg-transparent  "></FaGithub>
+                                        <FaGithub className="text-4xl text-[#02C39A] border-0 hover:text-[#02C39A] hover:scale-105 "></FaGithub>
                                     </a>
                                     <a href="https://www.linkedin.com/in/ikmat-rabib-19b608144" target="blank" >
-                                        <FaLinkedin className="text-3xl text-[#02C39A] border-0 hover:text-[#02C39A] bg-transparent hover:bg-transparent "></FaLinkedin >
+                                        <FaLinkedin className="text-4xl text-[#02C39A] border-0 hover:text-[#02C39A] hover:scale-105 "></FaLinkedin >
                                     </a>
-
 
                                 </div>
                             </div>
@@ -79,21 +78,21 @@ const Contact = () => {
                                 <label className="label">
                                     <span className="label-text text-[#F0F3BD]">Name</span>
                                 </label>
-                                <input type="text" name="user_name" placeholder="name" className="input input-bordered bg-[#002939]" required />
+                                <input type="text" name="user_name" placeholder="name" className="input input-bordered bg-[#002939] text-[#F0F3BD]" required />
                             </div>
 
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text text-[#F0F3BD]">Email</span>
                                 </label>
-                                <input type="email" name="user_email" placeholder="email" className="input input-bordered  bg-[#002939]" required />
+                                <input type="email" name="user_email" placeholder="email" className="input input-bordered  bg-[#002939] text-[#F0F3BD]" required />
                             </div>
 
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text text-[#F0F3BD]">Message</span>
                                 </label>
-                                <textarea className="bg-[#002939] rounded-lg px-4 py-2" name="message" id="" cols="30" rows="5" required></textarea>
+                                <textarea className="bg-[#002939] text-[#F0F3BD] rounded-lg px-4 py-2" name="message" id="" cols="30" rows="5" required></textarea>
                             </div>
 
                             <div className="form-control mt-6">
