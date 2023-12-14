@@ -7,7 +7,7 @@ const Projects = () => {
         <div id="projects" className="bg-[#002939]">
             <Container>
                 <SectionTitle heading="Projects" subHeading=""></SectionTitle>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:my-10">
 
                     <div className="card card-compact rounded-xl w-full bg-[#004966] shadow-xl hover:scale-105 hover:shadow-[#59bfe7] transition ">
                         <figure><img src="https://i.ibb.co/k9LjJqC/rena.png" alt="" /></figure>
