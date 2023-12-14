@@ -20,11 +20,11 @@ const AboutMe = () => {
                         <div className="flex gap-3 justify-center">
 
                             <a href="https://github.com/ikmat-rabib" target="blank">
-                                <FaGithub className="text-4xl text-[#02C39A] border-0 hover:text-[#00F5C0] hover:scale-105   "></FaGithub>
+                                <FaGithub className="text-4xl text-[#02C39A] border-0 hover:text-[#00F5C0] hover:scale-105 transition  "></FaGithub>
                             </a>
 
                             <a href="https://www.linkedin.com/in/ikmat-rabib-19b608144" target="blank" >
-                                <FaLinkedin className="text-4xl text-[#02C39A] border-0 hover:text-[#00F5C0] hover:scale-105   "></FaLinkedin >
+                                <FaLinkedin className="text-4xl text-[#02C39A] border-0 hover:text-[#00F5C0] hover:scale-105 transition  "></FaLinkedin >
                             </a>
 
 
