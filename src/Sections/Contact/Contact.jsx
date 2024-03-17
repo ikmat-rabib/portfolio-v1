@@ -37,7 +37,7 @@ const Contact = () => {
                                 <FaMobileScreen className="text-3xl text-[#02C39A] " />
                                 <div>
                                     <h4 className="text-[#F0F3BD] font-medium">Call Me:</h4>
-                                    <p className="text-[#E2E3CE]">+88 001122334455</p>
+                                    <p className="text-[#E2E3CE]">+88 01324-079709</p>
                                 </div>
                             </div>
                             <div className="flex items-center gap-2">
