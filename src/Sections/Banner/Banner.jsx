@@ -19,7 +19,7 @@ const Banner = () => {
                         <p className="text-lg font-medium text-[#E2E3CE] mb-3"> I care about crafting seamless user experiences</p>
                         <div className="my-8 "></div>
                         <div className="flex gap-5 justify-center md:justify-normal">
-                            <a href="/public/resume/Assignment-2-(SCIC).pdf" download="Assignment-2-(SCIC).pdf" className="btn btn-outline border-[#00A896] text-xs hover:bg-[#02C39A]  text-[#F0F3BD] rounded-full uppercase hover:scale-105 hover:border-[#02C39A] ">download resume</a>
+                            <a href="/public/resume/Ikmat-Resume.pdf" download="Ikmat-Resume.pdf" className="btn btn-outline border-[#00A896] text-xs hover:bg-[#02C39A]  text-[#F0F3BD] rounded-full uppercase hover:scale-105 hover:border-[#02C39A] ">download resume</a>
                             <a href="#projects"  className="btn bg-[#00a897ab] border-0 text-xs hover:bg-[#02C39A]  text-[#F0F3BD] rounded-full uppercase hover:scale-105 ">see projects</a>
                         </div>
 
